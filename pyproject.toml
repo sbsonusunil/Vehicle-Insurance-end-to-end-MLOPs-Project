@@ -1,9 +1,9 @@
-[Project]
+[project]
 name="src"
 version="0.0.1"
 description="MLOPs production Project"
-author=[{name:"Sunil bhatt",email:"sbsonusunil@gmail.com"}]
+authors=[{name="Sunil bhatt", email="sbsonusunil@gmail.com"}]
 [tool.setuptools]
-packages={find{}}
+packages={find={}}
 [tool.setuptools.dynamic]
 dependencies={file="requirements.txt"}
